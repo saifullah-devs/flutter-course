@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:nullsafety/model/job_post.dart';
 
 class Home extends StatefulWidget {
-  const Home({Key? key}) : super(key: key);
+  const Home({super.key});
 
   @override
   State<Home> createState() => _HomeState();
@@ -79,6 +79,7 @@ class _HomeState extends State<Home> {
                     });
                   }
 
+                  // ignore: avoid_function_literals_in_foreach_calls
                   [titleFieldController, descpFieldController].forEach((
                     element,
                   ) {

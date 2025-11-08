@@ -42,7 +42,7 @@ class _MyAppState extends State<MyApp> {
 class Home extends StatelessWidget {
   final Function onThemeChange;
 
-  const Home({Key? key, required this.onThemeChange}) : super(key: key);
+  const Home({super.key, required this.onThemeChange});
 
   @override
   Widget build(BuildContext context) {
@@ -51,7 +51,7 @@ class Home extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           style: ButtonStyle(
-            backgroundColor: MaterialStateProperty.all(Colors.green),
+            backgroundColor: WidgetStateProperty.all(Colors.green),
           ),
           onPressed: () {
             onThemeChange();

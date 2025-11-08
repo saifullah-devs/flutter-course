@@ -5,6 +5,6 @@ extension MyUIExt on BuildContext {
 }
 
 extension MyStrExt on String {
-  String get firstName => this.split(" ").first;
-  String get lastName => this.split(" ").last;
+  String get firstName => split(" ").first;
+  String get lastName => split(" ").last;
 }

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class About extends StatelessWidget {
   final String title;
 
-  const About({Key? key, this.title = "About"}) : super(key: key);
+  const About({super.key, this.title = "About"});
 
   @override
   Widget build(BuildContext context) {

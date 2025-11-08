@@ -21,9 +21,7 @@ abstract class AppTheme {
   static ThemeData get dark => ThemeData.dark().copyWith(
     textTheme: lightv2.textTheme.copyWith(),
     elevatedButtonTheme: ElevatedButtonThemeData(
-      style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.all(Colors.red),
-      ),
+      style: ButtonStyle(backgroundColor: WidgetStateProperty.all(Colors.red)),
     ),
   );
 }

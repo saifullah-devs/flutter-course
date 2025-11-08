@@ -4,6 +4,7 @@ void main() {
 
 meraDairShnaiwalaKaam() {
   asyncTask();
+  // ignore: avoid_print
   print("Hello world");
 }
 
@@ -25,8 +26,10 @@ futureObj.catchError((e) {
 
   try {
     var responseFromFutureTask = await futureObj;
+    // ignore: avoid_print
     print(responseFromFutureTask);
   } catch (e) {
+    // ignore: avoid_print
     print("Error $e");
   }
 }

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class AppTextField extends StatelessWidget {
   final String placeholder;
 
-  AppTextField({required this.placeholder});
+  const AppTextField({super.key, required this.placeholder});
 
   @override
   Widget build(BuildContext context) {

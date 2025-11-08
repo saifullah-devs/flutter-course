@@ -4,7 +4,7 @@ class AppButton extends StatelessWidget {
   final String label;
   final GestureTapCallback onPress;
 
-  const AppButton({required this.label, required this.onPress});
+  const AppButton({super.key, required this.label, required this.onPress});
 
   @override
   Widget build(BuildContext context) {

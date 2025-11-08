@@ -5,7 +5,7 @@ pageChangeKro(BuildContext context, Widget page) =>
     Navigator.push<String>(context, MaterialPageRoute(builder: (_) => page));
 
 class Home extends StatefulWidget {
-  const Home({Key? key}) : super(key: key);
+  const Home({super.key});
 
   @override
   State<Home> createState() => _HomeState();
@@ -22,6 +22,7 @@ class _HomeState extends State<Home> {
 
   showMainpage() async {
     await Future.delayed(Duration(seconds: 2));
+    // ignore: use_build_context_synchronously
     pageChangeKro(context, About());
   }
 

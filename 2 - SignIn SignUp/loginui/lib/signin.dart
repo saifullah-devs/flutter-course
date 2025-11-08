@@ -4,6 +4,8 @@ import 'package:loginui/widget/app_textfeild.dart';
 import 'package:loginui/widget/app_button.dart';
 
 class SignIn extends StatelessWidget {
+  const SignIn({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

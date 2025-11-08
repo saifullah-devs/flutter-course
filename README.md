@@ -16,9 +16,9 @@ The aim is to understand and build every layer — from **UI design**, to **API 
 
 | Stage       | Description                                                        | Status                    |
 | ----------- | ------------------------------------------------------------------ | ------------------------- |
-| **Stage 1** | Flutter Fundamentals: UI, Widgets, Layouts, and Navigation         | ✅ Completed / In Progress |
-| **Stage 2** | Intermediate Flutter: State Management, Custom Widgets, Animations | 🕓 Ongoing                |
-| **Stage 3** | CRUD Operations & REST API Integration                             | 🔜 Upcoming               |
+| **Stage 1** | Flutter Fundamentals: UI, Widgets, Layouts, and Navigation         | ✅ Completed              |
+| **Stage 2** | CRUD Operations & REST API Integration                             | ✅ Completed              |
+| **Stage 3** | Intermediate Flutter: State Management, Custom Widgets, Animations | ✅ Completed              |
 | **Stage 4** | Backend Development (Node.js / Next.js)                            | 🔜 Upcoming               |
 | **Stage 5** | Database Integration (SQL / Firebase)                              | 🔜 Upcoming               |
 | **Stage 6** | Authentication & Security (JWT / Firebase Auth)                    | 🔜 Upcoming               |
@@ -70,8 +70,7 @@ flutter run
 
 ## 🧱 Folder Structure
 
-```
-flutter-course/
+```flutter-course/
 │
 ├── lib/
 │   ├── main.dart                # App entry point
@@ -98,19 +97,19 @@ flutter-course/
 * [x] App setup and folder structure
 * [x] UI built using Flutter widgets
 * [x] Navigation and routing added
-* [ ] Testing on multiple devices
+* [x] Testing on multiple devices
 
 ### 🕓 Stage 2: Intermediate Flutter
 
-* [ ] Implement state management (Provider / Riverpod)
-* [ ] Create custom reusable widgets
-* [ ] Add animations & responsive design
+* [x] Implement state management (Provider / Riverpod)
+* [x] Create custom reusable widgets
+* [x] Add animations & responsive design
 
 ### 🔜 Stage 3: CRUD + API Integration
 
-* [ ] Setup mock REST API (JSONPlaceholder / Postman)
-* [ ] Fetch and display data using HTTP package
-* [ ] Implement Create, Read, Update, Delete functions
+* [x] Setup mock REST API (JSONPlaceholder / Postman)
+* [x] Fetch and display data using HTTP package
+* [x] Implement Create, Read, Update, Delete functions
 
 ### 🔜 Stage 4: Backend Development
 
@@ -134,7 +133,7 @@ flutter-course/
 
 ## 📸 Screenshots
 
-*(To be added as the project UI progresses)*
+* (To be added as the project UI progresses) *
 
 | Screen       | Description                    |
 | ------------ | ------------------------------ |
@@ -171,7 +170,7 @@ This project supports **career growth as a Full Stack Flutter Developer**, with 
 🧠 Flutter & Full Stack Developer (in progress)
 📍 Pakistan
 🌐 GitHub: [saifullah-devs](https://github.com/saifullah-devs)
-📧 Email: *[your email here]*
+📧 Email: *<saifullah.devs@gmail.com>*
 
 ---
 

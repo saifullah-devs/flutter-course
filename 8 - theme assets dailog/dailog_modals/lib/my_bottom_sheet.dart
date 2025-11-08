@@ -18,6 +18,7 @@ class MyBottomSheet extends StatelessWidget {
         ),
       ),
       onClosing: () {
+        // ignore: avoid_print
         print("Hello world closing");
       },
     );

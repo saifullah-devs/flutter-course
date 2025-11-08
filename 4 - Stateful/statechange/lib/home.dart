@@ -18,6 +18,8 @@ import 'package:flutter/material.dart';
 * */
 
 class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+
   @override
   State<StatefulWidget> createState() {
     return HomeState();
@@ -45,8 +47,8 @@ class HomeState extends State<HomeScreen> {
               ),
             ),
             ElevatedButton(
-              child: const Text('Update Ttext'),
               onPressed: updateName,
+              child: const Text('Update Ttext'),
             ),
           ],
         ),
